@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "google" {
-  project     = "terraform-project-381923"
+  project     = "terraform-project200"
   region      = "US"
 }
 
