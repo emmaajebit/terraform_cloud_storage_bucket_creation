@@ -1,13 +1,15 @@
 variable "project_id" {
   description = "The ID of the GCP project."
-  default     = "terraform-project-381923"
+  default     = "terraform-project200"
 }
 
 variable "bucket_name" {
   description = "A list of unique names for the GCP storage buckets."
   type        = list(string)
   default     = [
-      "emanuellebucketnamebest1"
+    "emanuellebucketnamebest01"
+    
+    
    ]
 }
 variable "bucket_location" {
